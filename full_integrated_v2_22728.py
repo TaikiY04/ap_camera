@@ -18,7 +18,7 @@ pi.set_servo_pulsewidth(26, y_deg_face)
 # Open filepaths for cascades
 classifier_pth = '/home/pi/Downloads/opencv-master/data/haarcascades/'
 
-cascade1 = cv2.CascadeClassifier(''.join([classifier_pth, 'haarcascade_frontalface_alt.xml']))
+cascade1 = cv2.CascadeClassifier(''.join([classifier_pth, 'haarcascade_frontalface_default.xml']))
 cascade2 = cv2.CascadeClassifier(''.join([classifier_pth, 'haarcascade_frontalface_alt.xml']))
 cascade3 = cv2.CascadeClassifier(''.join([classifier_pth, 'haarcascade_frontalface_alt2.xml']))
 cascade4 = cv2.CascadeClassifier(''.join([classifier_pth, 'haarcascade_frontalface_alt_tree.xml']))
